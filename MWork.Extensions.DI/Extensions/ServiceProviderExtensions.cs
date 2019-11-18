@@ -29,7 +29,7 @@ namespace MWork.Extensions.DI.Extensions
                 // Try using IWithName interface
                 var withName = services
                     .Select(x => new
-                    {
+                    {gdfgdgdfgdfg
                         Service = x,
                         WithName = x.GetType()
                             .GetInterfaces()
