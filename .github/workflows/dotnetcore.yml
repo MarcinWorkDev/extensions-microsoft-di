@@ -1,4 +1,4 @@
-name: BuildMe-MASTER
+name: BuildMe
 
 on:
   push:
