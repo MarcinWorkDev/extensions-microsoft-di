@@ -1,0 +1,9 @@
+F:\repos\rider\mwork-extensions-di\MWork.Extensions.DI\MWork.Extensions.DI\bin\Debug\netcoreapp2.2\MWork.Extensions.DI.deps.json
+F:\repos\rider\mwork-extensions-di\MWork.Extensions.DI\MWork.Extensions.DI\bin\Debug\netcoreapp2.2\MWork.Extensions.DI.dll
+F:\repos\rider\mwork-extensions-di\MWork.Extensions.DI\MWork.Extensions.DI\bin\Debug\netcoreapp2.2\MWork.Extensions.DI.pdb
+F:\repos\rider\mwork-extensions-di\MWork.Extensions.DI\MWork.Extensions.DI\obj\Debug\netcoreapp2.2\MWork.Extensions.DI.csprojAssemblyReference.cache
+F:\repos\rider\mwork-extensions-di\MWork.Extensions.DI\MWork.Extensions.DI\obj\Debug\netcoreapp2.2\MWork.Extensions.DI.csproj.CoreCompileInputs.cache
+F:\repos\rider\mwork-extensions-di\MWork.Extensions.DI\MWork.Extensions.DI\obj\Debug\netcoreapp2.2\MWork.Extensions.DI.AssemblyInfoInputs.cache
+F:\repos\rider\mwork-extensions-di\MWork.Extensions.DI\MWork.Extensions.DI\obj\Debug\netcoreapp2.2\MWork.Extensions.DI.AssemblyInfo.cs
+F:\repos\rider\mwork-extensions-di\MWork.Extensions.DI\MWork.Extensions.DI\obj\Debug\netcoreapp2.2\MWork.Extensions.DI.dll
+F:\repos\rider\mwork-extensions-di\MWork.Extensions.DI\MWork.Extensions.DI\obj\Debug\netcoreapp2.2\MWork.Extensions.DI.pdb

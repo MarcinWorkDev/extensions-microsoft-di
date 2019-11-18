@@ -1,0 +1,63 @@
+﻿{
+  "version": "1.0.0",
+  "restore": {
+    "projectUniqueName": "F:\\repos\\rider\\mwork-extensions-di\\MWork.Extensions.DI\\MWork.Extensions.DI.Tests.WebApi\\MWork.Extensions.DI.Tests.WebApi.csproj",
+    "projectName": "MWork.Extensions.DI.Tests.WebApi",
+    "projectPath": "F:\\repos\\rider\\mwork-extensions-di\\MWork.Extensions.DI\\MWork.Extensions.DI.Tests.WebApi\\MWork.Extensions.DI.Tests.WebApi.csproj",
+    "outputPath": "F:\\repos\\rider\\mwork-extensions-di\\MWork.Extensions.DI\\MWork.Extensions.DI.Tests.WebApi\\obj\\",
+    "projectStyle": "PackageReference",
+    "fallbackFolders": [
+      "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+    ],
+    "originalTargetFrameworks": [
+      "netcoreapp2.2"
+    ],
+    "sources": {
+      "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+      "https://api.nuget.org/v3/index.json": {}
+    },
+    "frameworks": {
+      "netcoreapp2.2": {
+        "projectReferences": {
+          "F:\\repos\\rider\\mwork-extensions-di\\MWork.Extensions.DI\\MWork.Extensions.DI\\MWork.Extensions.DI.csproj": {
+            "projectPath": "F:\\repos\\rider\\mwork-extensions-di\\MWork.Extensions.DI\\MWork.Extensions.DI\\MWork.Extensions.DI.csproj"
+          }
+        }
+      }
+    },
+    "warningProperties": {
+      "warnAsError": [
+        "NU1605"
+      ]
+    }
+  },
+  "frameworks": {
+    "netcoreapp2.2": {
+      "dependencies": {
+        "Microsoft.AspNetCore": {
+          "target": "Package",
+          "version": "[2.2.0, )"
+        },
+        "Microsoft.AspNetCore.HttpsPolicy": {
+          "target": "Package",
+          "version": "[2.2.0, )"
+        },
+        "Microsoft.AspNetCore.Mvc": {
+          "target": "Package",
+          "version": "[2.2.0, )"
+        },
+        "Microsoft.NETCore.App": {
+          "suppressParent": "All",
+          "target": "Package",
+          "version": "[2.2.0, )",
+          "autoReferenced": true
+        }
+      },
+      "imports": [
+        "net461"
+      ],
+      "assetTargetFallback": true,
+      "warn": true
+    }
+  }
+}

@@ -1,0 +1,14 @@
+F:\repos\rider\mwork-extensions-di\MWork.Extensions.DI\MWork.Extensions.DI.Tests.App\bin\Debug\netcoreapp2.2\MWork.Extensions.DI.Tests.App.deps.json
+F:\repos\rider\mwork-extensions-di\MWork.Extensions.DI\MWork.Extensions.DI.Tests.App\bin\Debug\netcoreapp2.2\MWork.Extensions.DI.Tests.App.runtimeconfig.json
+F:\repos\rider\mwork-extensions-di\MWork.Extensions.DI\MWork.Extensions.DI.Tests.App\bin\Debug\netcoreapp2.2\MWork.Extensions.DI.Tests.App.runtimeconfig.dev.json
+F:\repos\rider\mwork-extensions-di\MWork.Extensions.DI\MWork.Extensions.DI.Tests.App\bin\Debug\netcoreapp2.2\MWork.Extensions.DI.Tests.App.dll
+F:\repos\rider\mwork-extensions-di\MWork.Extensions.DI\MWork.Extensions.DI.Tests.App\bin\Debug\netcoreapp2.2\MWork.Extensions.DI.Tests.App.pdb
+F:\repos\rider\mwork-extensions-di\MWork.Extensions.DI\MWork.Extensions.DI.Tests.App\bin\Debug\netcoreapp2.2\MWork.Extensions.DI.dll
+F:\repos\rider\mwork-extensions-di\MWork.Extensions.DI\MWork.Extensions.DI.Tests.App\bin\Debug\netcoreapp2.2\MWork.Extensions.DI.pdb
+F:\repos\rider\mwork-extensions-di\MWork.Extensions.DI\MWork.Extensions.DI.Tests.App\obj\Debug\netcoreapp2.2\MWork.Extensions.DI.Tests.App.csprojAssemblyReference.cache
+F:\repos\rider\mwork-extensions-di\MWork.Extensions.DI\MWork.Extensions.DI.Tests.App\obj\Debug\netcoreapp2.2\MWork.Extensions.DI.Tests.App.csproj.CoreCompileInputs.cache
+F:\repos\rider\mwork-extensions-di\MWork.Extensions.DI\MWork.Extensions.DI.Tests.App\obj\Debug\netcoreapp2.2\MWork.Extensions.DI.Tests.App.AssemblyInfoInputs.cache
+F:\repos\rider\mwork-extensions-di\MWork.Extensions.DI\MWork.Extensions.DI.Tests.App\obj\Debug\netcoreapp2.2\MWork.Extensions.DI.Tests.App.AssemblyInfo.cs
+F:\repos\rider\mwork-extensions-di\MWork.Extensions.DI\MWork.Extensions.DI.Tests.App\obj\Debug\netcoreapp2.2\MWork.Extensions.DI.Tests.App.csproj.CopyComplete
+F:\repos\rider\mwork-extensions-di\MWork.Extensions.DI\MWork.Extensions.DI.Tests.App\obj\Debug\netcoreapp2.2\MWork.Extensions.DI.Tests.App.dll
+F:\repos\rider\mwork-extensions-di\MWork.Extensions.DI\MWork.Extensions.DI.Tests.App\obj\Debug\netcoreapp2.2\MWork.Extensions.DI.Tests.App.pdb
