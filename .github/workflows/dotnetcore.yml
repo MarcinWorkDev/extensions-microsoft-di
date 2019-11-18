@@ -1,10 +1,11 @@
-name: BuildMe-MASTER
+name: BuildMe
 
 on:
   push:
     # Sequence of patterns matched against refs/heads
     branches:    
       - master         # Push events on master branch
+      - develop
 
 jobs:
   build:
