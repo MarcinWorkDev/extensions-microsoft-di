@@ -1,12 +1,12 @@
 # MARCIN.WORK 
 ### .NET Core Dependency Injection - named instances functionality
 ##
-#### Requires:
+### Requires:
 * `Microsoft.Extensions.DependencyInjection`
 
-#### Usage:
+### Usage:
 
-##### Registration
+#### Registration
 
 ###### METHOD 1 - Using interface
 * Implement `IWithName` interface
@@ -64,7 +64,7 @@ public void ConfigureServices(IServiceCollection services)
 }
 ```
 
-##### Resolving
+#### Resolving
 
 ###### METHOD 1 - Using `IServiceProvider`
 ```c#
