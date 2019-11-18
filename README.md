@@ -1,2 +1,98 @@
-# extensions-microsoft-di
-Microsoft.Extensions.DependencyInjection - named instances functionality
+# MARCIN.WORK 
+### .NET Core Dependency Injection - named instances functionality
+##
+#### Requires:
+* `Microsoft.Extensions.DependencyInjection`
+
+#### Usage:
+
+##### Registration
+
+###### METHOD 1 - Using interface
+* Implement `IWithName` interface
+* Set value `of ClassExternalName` class property
+* Register implementation
+
+```c#
+public interface ITest
+{
+    ...
+}
+```
+```c#
+public class Test : ITest, IWithName
+{
+    string ClassExternalName { get; } = "TestClass"
+    
+    ...
+}
+```
+```c#
+public void ConfigureServices(IServiceCollection services)
+{
+    services
+        .AddSingleton<ITest, Test>();
+}
+```
+
+###### METHOD 2 - Using extension
+* Register implementation using `WithName(string name)` or `AddNamed*Lifetime*` extension
+
+```c#
+public interface ITest
+{
+    ...
+}
+```
+```c#
+public class Test : ITest
+{
+    ...
+}
+```
+```c#
+public void ConfigureServices(IServiceCollection services)
+{
+    services
+        .AddSingleton<ITest, Test>()
+        .WithName("TestClass");
+        
+    // OR
+    
+    services
+        .AddNamedSingleton<ITest, Test>("TestClass");
+}
+```
+
+##### Resolving
+
+###### METHOD 1 - Using `IServiceProvider`
+```c#
+public class TestService
+{
+    private readonly ITest _test;
+
+    public TestService(IServiceProvider serviceProvider)
+    {
+        _test = serviceProvider.GetNamedService<ITest>("TestClass");
+        
+        // OR
+        
+        _test = serviceProvider.GetRequiredNamedService<ITest>("TestClass");
+    }
+}
+```
+
+###### METHOD 2 - Using `NamedAtribute`
+**Method not implemented yet!**
+```c#
+public class TestService
+{
+    private readonly ITest _test;
+
+    public TestService([Named("TestClass")]ITest test)
+    {
+        _test = test;
+    }
+}
+```

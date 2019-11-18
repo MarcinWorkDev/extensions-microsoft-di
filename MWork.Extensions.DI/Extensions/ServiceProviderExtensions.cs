@@ -35,7 +35,7 @@ namespace MWork.Extensions.DI.Extensions
                             .GetInterfaces()
                             .Any(i => i == typeof(IWithName))
                     })
-                    .LastOrDefault(x => x.WithName && (x.Service as IWithName)?.__InstanceName == name);
+                    .LastOrDefault(x => x.WithName && (x.Service as IWithName)?.ClassExternalName == name);
                 
                 if (withName != default)
                 {

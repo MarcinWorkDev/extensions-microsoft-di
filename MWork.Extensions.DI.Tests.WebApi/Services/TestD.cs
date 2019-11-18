@@ -12,6 +12,6 @@ namespace MWork.Extensions.DI.Tests.WebApi.Services
             Console.WriteLine("TEST D");
         }
 
-        public string __InstanceName { get; set; } = "BlaBla";
+        public string ClassExternalName { get; set; } = "BlaBla";
     }
 }
