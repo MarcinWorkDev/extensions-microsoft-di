@@ -22,7 +22,7 @@ public interface ITest
 ```c#
 public class Test : ITest, IWithName
 {
-    string ClassExternalName { get; } = "TestClass"
+    public string ClassExternalName { get; } = "TestClass"
     
     ...
 }
