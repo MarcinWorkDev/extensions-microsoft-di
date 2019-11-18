@@ -47,7 +47,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MWork.Extensions.DI/NamedInstanceResolver.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="233">
+            <state relative-caret-position="428">
               <caret line="53" column="93" selection-start-line="53" selection-start-column="93" selection-end-line="53" selection-end-column="93" />
               <folding>
                 <marker date="1574106404193" expanded="true" signature="6:191" ph="..." />
@@ -67,20 +67,92 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MWork.Extensions.DI.Tests.WebApi/Startup.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="34" column="133" selection-start-line="34" selection-start-column="133" selection-end-line="34" selection-end-column="133" />
+            <state relative-caret-position="396">
+              <caret line="34" column="36" selection-start-line="34" selection-start-column="36" selection-end-line="34" selection-end-column="36" />
               <folding>
-                <marker date="1574106865878" expanded="true" signature="6:489" ph="..." />
-                <marker date="1574106865878" expanded="true" signature="533:2009" ph="{...}" />
-                <marker date="1574106865878" expanded="true" signature="560:2007" ph="{...}" />
-                <marker date="1574106865878" expanded="true" signature="619:682" ph="{...}" />
-                <marker date="1574106865878" expanded="true" signature="905:1393" ph="{...}" />
-                <marker date="1574106865878" expanded="true" signature="1581:2001" ph="{...}" />
-                <marker date="1574106865878" expanded="true" signature="1628:1705" ph="{...}" />
-                <marker date="1574106865878" expanded="true" signature="1722:1925" ph="{...}" />
+                <marker date="1574109195121" expanded="true" signature="6:489" ph="..." />
+                <marker date="1574109195121" expanded="true" signature="533:2088" ph="{...}" />
+                <marker date="1574109195121" expanded="true" signature="560:2086" ph="{...}" />
+                <marker date="1574109195121" expanded="true" signature="619:682" ph="{...}" />
+                <marker date="1574109195121" expanded="true" signature="905:1472" ph="{...}" />
+                <marker date="1574109195121" expanded="true" signature="1660:2080" ph="{...}" />
+                <marker date="1574109195121" expanded="true" signature="1707:1784" ph="{...}" />
+                <marker date="1574109195121" expanded="true" signature="1801:2004" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MWork.Extensions.DI.Tests.WebApi/Controllers/ValuesController.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="64">
+              <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+              <folding>
+                <marker date="1574109128087" expanded="false" signature="6:302" ph="..." />
+                <marker date="1574109128087" expanded="true" signature="358:2589" ph="{...}" />
+                <marker date="1574109128087" expanded="true" signature="463:2587" ph="{...}" />
+                <marker date="1574109128087" expanded="true" signature="608:1883" ph="{...}" />
+                <marker date="1574109128087" expanded="true" signature="1991:2065" ph="{...}" />
+                <marker date="1574109128087" expanded="true" signature="2168:2216" ph="{...}" />
+                <marker date="1574109128087" expanded="true" signature="2313:2333" ph="{...}" />
+                <marker date="1574109128087" expanded="true" signature="2445:2465" ph="{...}" />
+                <marker date="1574109128087" expanded="true" signature="2561:2581" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MWork.Extensions.DI/Extensions/ServiceProviderExtensions.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="416">
+              <caret line="29" selection-start-line="29" selection-end-line="29" />
+              <folding>
+                <marker date="1573902618570" expanded="false" signature="6:119" ph="..." />
+                <marker date="1573902618570" expanded="true" signature="161:1046" ph="{...}" />
+                <marker date="1573902618570" expanded="true" signature="213:1044" ph="{...}" />
+                <marker date="1573902618570" expanded="true" signature="328:617" ph="{...}" />
+                <marker date="1573902618570" expanded="true" signature="454:578" ph="{...}" />
+                <marker date="1573902618570" expanded="true" signature="743:1038" ph="{...}" />
+                <marker date="1573902618570" expanded="true" signature="869:999" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9DE46E3C-963E-4872-8A29-95FD027553CC/6c/16f4ec57/ExceptionDispatchInfo.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="282">
+              <caret line="91" column="6" selection-start-line="91" selection-start-column="6" selection-end-line="91" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/MWork.Extensions.DI/Extensions/ServiceCollectionExtensions.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1072">
+              <caret line="71" column="9" selection-start-line="71" selection-start-column="9" selection-end-line="71" selection-end-column="9" />
+              <folding>
+                <marker date="1574108422538" expanded="false" signature="6:172" ph="..." />
+                <marker date="1574108422538" expanded="true" signature="214:3751" ph="{...}" />
+                <marker date="1574108422538" expanded="true" signature="268:3749" ph="{...}" />
+                <marker date="1574108422538" expanded="true" signature="494:612" ph="{...}" />
+                <marker date="1574108422538" expanded="true" signature="838:953" ph="{...}" />
+                <marker date="1574108422538" expanded="true" signature="1182:1300" ph="{...}" />
+                <marker date="1574108422538" expanded="true" signature="1450:1566" ph="{...}" />
+                <marker date="1574108422538" expanded="true" signature="1713:1826" ph="{...}" />
+                <marker date="1574108422538" expanded="true" signature="1976:2092" ph="{...}" />
+                <marker date="1574108422538" expanded="true" signature="2330:2447" ph="{...}" />
+                <marker date="1574108422538" expanded="true" signature="2614:2877" ph="{...}" />
+                <marker date="1574108422538" expanded="true" signature="2983:3159" ph="{...}" />
+                <marker date="1574108422538" expanded="true" signature="3285:3743" ph="{...}" />
+                <marker date="1574108422538" expanded="true" signature="3388:3508" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -112,6 +184,7 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/45B80AE8-5287-4889-B763-035D637BFDDC/af/44644e75/RuntimeServiceProviderEngine.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/8D38E42A-49C1-41F8-B6C5-121BEDF29781/24/2acdbf3f/CollectionExtensions.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/45B80AE8-5287-4889-B763-035D637BFDDC/73/e33f0a4f/ServiceProvider.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9DE46E3C-963E-4872-8A29-95FD027553CC/6c/16f4ec57/ExceptionDispatchInfo.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MWork.Extensions.DI.Tests.App/TestC.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/45B80AE8-5287-4889-B763-035D637BFDDC/6c/5e43aa27/ServiceCollectionContainerBuilderExtensions.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MWork.Extensions.DI.Tests.App/ITest.cs" root0="FORCE_HIGHLIGHTING" />
@@ -165,8 +238,6 @@
         <option value="$PROJECT_DIR$/MWork.Extensions.DI.Tests.WebApi/Models/Named.cs" />
         <option value="$PROJECT_DIR$/MWork.Extensions.DI.Tests.WebApi/Models/NamedServiceDescriptor.cs" />
         <option value="$PROJECT_DIR$/MWork.Extensions.DI/NamedAttribute.cs" />
-        <option value="$PROJECT_DIR$/MWork.Extensions.DI/Extensions/ServiceCollectionExtensions.cs" />
-        <option value="$PROJECT_DIR$/MWork.Extensions.DI.Tests.WebApi/Controllers/ValuesController.cs" />
         <option value="$PROJECT_DIR$/MWork.Extensions.DI.Tests.WebApi/Properties/launchSettings.json" />
         <option value="$PROJECT_DIR$/MWork.Extensions.DI/Abstraction/INamedInstanceResolver.cs" />
         <option value="$PROJECT_DIR$/MWork.Extensions.DI/Extensions/ServiceProviderExtensions.cs" />
@@ -178,6 +249,8 @@
         <option value="$PROJECT_DIR$/MWork.Extensions.DI.Tests.WebApi/Services/TestA.cs" />
         <option value="$PROJECT_DIR$/MWork.Extensions.DI.Tests.WebApi/Services/TestB.cs" />
         <option value="$PROJECT_DIR$/MWork.Extensions.DI.Tests.WebApi/Services/TestC.cs" />
+        <option value="$PROJECT_DIR$/MWork.Extensions.DI/Extensions/ServiceCollectionExtensions.cs" />
+        <option value="$PROJECT_DIR$/MWork.Extensions.DI.Tests.WebApi/Controllers/ValuesController.cs" />
         <option value="$PROJECT_DIR$/MWork.Extensions.DI.Tests.WebApi/Startup.cs" />
       </list>
     </option>
@@ -228,7 +301,18 @@
             <path>
               <item name="" type="784c90a0:SolutionExplorerRootNode" />
               <item name="MWork.Extensions.DI" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="MWork.Extensions.DI.Tests.App" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="MWork.Extensions.DI" type="24d0babc:SolutionExplorerModelNode" />
               <item name="MWork.Extensions.DI.Tests.WebApi" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="MWork.Extensions.DI" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="MWork.Extensions.DI.Tests.WebApi" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Controllers" type="24d0babc:SolutionExplorerModelNode" />
             </path>
             <path>
               <item name="" type="784c90a0:SolutionExplorerRootNode" />
@@ -265,7 +349,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected=".NET Project.Default">
+  <component name="RunManager" selected=".NET Launch Settings Profile.MWork.Extensions.DI.Tests.WebApi: IIS Express (1)">
     <configuration name="Default" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="$PROJECT_DIR$/MWork.Extensions.DI.Tests.App/bin/Debug/netcoreapp2.2/MWork.Extensions.DI.Tests.App.dll" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -280,6 +364,21 @@
       <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
       <option name="PROJECT_KIND" value="DotNetCore" />
       <option name="PROJECT_TFM" value=".NETCoreApp,Version=v2.2" />
+      <method v="2">
+        <option name="Build" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MWork.Extensions.DI.Tests.WebApi: IIS Express (1)" type="LaunchSettings" factoryName=".NET Launch Settings Profile" temporary="true">
+      <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/MWork.Extensions.DI.Tests.WebApi/MWork.Extensions.DI.Tests.WebApi.csproj" />
+      <option name="LAUNCH_PROFILE_TFM" value=".NETCoreApp,Version=v2.2" />
+      <option name="LAUNCH_PROFILE_NAME" value="IIS Express" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="GENERATE_APPLICATIONHOST_CONFIG" value="1" />
+      <option name="SHOW_IIS_EXPRESS_OUTPUT" value="0" />
+      <option name="SEND_DEBUG_REQUEST" value="1" />
+      <option name="ADDITIONAL_IIS_EXPRESS_ARGUMENTS" value="" />
       <method v="2">
         <option name="Build" enabled="true" />
       </method>
@@ -301,6 +400,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue=".NET Launch Settings Profile.MWork.Extensions.DI.Tests.WebApi: IIS Express (1)" />
         <item itemvalue=".NET Launch Settings Profile.MWork.Extensions.DI.Tests.WebApi: IIS Express" />
       </list>
     </recent_temporary>
@@ -312,12 +412,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1573388895750</updated>
-      <workItem from="1573388897237" duration="23026000" />
+      <workItem from="1573388897237" duration="24999000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23026000" />
+    <option name="totallyTimeSpent" value="24999000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -345,11 +445,11 @@
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Performance Profiler" />
-      <window_info anchor="bottom" id="Build" weight="0.41079295" />
+      <window_info anchor="bottom" id="Build" weight="0.27863437" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.21475771" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.34251103" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.37995595" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.34251103" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -388,19 +488,6 @@
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/MWork.Extensions.DI.Tests.WebApi/Controllers/ValuesController.cs</url>
-          <line>21</line>
-          <properties documentPath="$PROJECT_DIR$/MWork.Extensions.DI.Tests.WebApi/Controllers/ValuesController.cs" initialLine="16">
-            <startOffsets>
-              <option value="690" />
-            </startOffsets>
-            <endOffsets>
-              <option value="725" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/45B80AE8-5287-4889-B763-035D637BFDDC/da/2434160e/ServiceProviderEngine.cs</url>
           <line>68</line>
           <properties documentPath="$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/45B80AE8-5287-4889-B763-035D637BFDDC/da/2434160e/ServiceProviderEngine.cs" initialLine="68">
@@ -426,22 +513,23 @@
           </properties>
           <option name="timeStamp" value="10" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/MWork.Extensions.DI.Tests.WebApi/Controllers/ValuesController.cs</url>
+          <line>36</line>
+          <properties documentPath="$PROJECT_DIR$/MWork.Extensions.DI.Tests.WebApi/Controllers/ValuesController.cs" initialLine="36">
+            <startOffsets>
+              <option value="1398" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1427" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/MWork.Extensions.DI.Tests.App/TestC.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="8" column="37" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
-          <folding>
-            <marker date="1573394957556" expanded="true" signature="54:194" ph="{...}" />
-            <marker date="1573394957556" expanded="true" signature="87:192" ph="{...}" />
-            <marker date="1573394957556" expanded="true" signature="125:186" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/B4EF600F-4A59-4FE2-865A-8F97F915FB9D/e2/6245dabf/ControllerActivatorProvider.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="194">
@@ -1336,24 +1424,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MWork.Extensions.DI.Tests.WebApi/Controllers/ValuesController.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="35" column="27" lean-forward="true" selection-start-line="35" selection-start-column="27" selection-end-line="35" selection-end-column="27" />
-          <folding>
-            <marker date="1573902262678" expanded="false" signature="6:302" ph="..." />
-            <marker date="1573902262678" expanded="true" signature="358:2007" ph="{...}" />
-            <marker date="1573902262678" expanded="true" signature="463:2005" ph="{...}" />
-            <marker date="1573902262678" expanded="true" signature="608:1301" ph="{...}" />
-            <marker date="1573902262678" expanded="true" signature="1409:1483" ph="{...}" />
-            <marker date="1573902262678" expanded="true" signature="1586:1634" ph="{...}" />
-            <marker date="1573902262678" expanded="true" signature="1731:1751" ph="{...}" />
-            <marker date="1573902262678" expanded="true" signature="1863:1883" ph="{...}" />
-            <marker date="1573902262678" expanded="true" signature="1979:1999" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/MWork.Extensions.DI/Extensions/NamedInstanceResolverExtensions.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="65">
@@ -1389,56 +1459,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MWork.Extensions.DI.Tests.App/Program.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="21" column="12" lean-forward="true" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
-          <folding>
-            <marker date="1573902855300" expanded="true" signature="6:99" ph="..." />
-            <marker date="1573902855300" expanded="true" signature="140:1146" ph="{...}" />
-            <marker date="1573902855300" expanded="true" signature="160:1144" ph="{...}" />
-            <marker date="1573902855300" expanded="true" signature="206:1138" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MWork.Extensions.DI/Extensions/ServiceProviderExtensions.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="29" selection-start-line="29" selection-end-line="29" />
-          <folding>
-            <marker date="1573902618570" expanded="false" signature="6:119" ph="..." />
-            <marker date="1573902618570" expanded="true" signature="161:1046" ph="{...}" />
-            <marker date="1573902618570" expanded="true" signature="213:1044" ph="{...}" />
-            <marker date="1573902618570" expanded="true" signature="328:617" ph="{...}" />
-            <marker date="1573902618570" expanded="true" signature="454:578" ph="{...}" />
-            <marker date="1573902618570" expanded="true" signature="743:1038" ph="{...}" />
-            <marker date="1573902618570" expanded="true" signature="869:999" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MWork.Extensions.DI/Extensions/ServiceCollectionExtensions.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="960">
-          <caret line="65" column="42" selection-start-line="65" selection-start-column="42" selection-end-line="65" selection-end-column="42" />
-          <folding>
-            <marker date="1573902046266" expanded="false" signature="6:119" ph="..." />
-            <marker date="1573902046266" expanded="true" signature="161:3222" ph="{...}" />
-            <marker date="1573902046266" expanded="true" signature="215:3220" ph="{...}" />
-            <marker date="1573902046266" expanded="true" signature="441:559" ph="{...}" />
-            <marker date="1573902046266" expanded="true" signature="785:900" ph="{...}" />
-            <marker date="1573902046266" expanded="true" signature="1129:1247" ph="{...}" />
-            <marker date="1573902046266" expanded="true" signature="1397:1513" ph="{...}" />
-            <marker date="1573902046266" expanded="true" signature="1660:1773" ph="{...}" />
-            <marker date="1573902046266" expanded="true" signature="1923:2039" ph="{...}" />
-            <marker date="1573902046266" expanded="true" signature="2277:2394" ph="{...}" />
-            <marker date="1573902046266" expanded="true" signature="2561:3214" ph="{...}" />
-            <marker date="1573902046266" expanded="true" signature="2771:2891" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/MWork.Extensions.DI/Abstraction/INamedInstanceResolver.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="96">
@@ -1447,19 +1467,6 @@
             <marker date="1573902711948" expanded="true" signature="6:95" ph="..." />
             <marker date="1573902711948" expanded="true" signature="138:385" ph="{...}" />
             <marker date="1573902711948" expanded="true" signature="184:383" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MWork.Extensions.DI.Tests/UnitTest1.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
-          <folding>
-            <marker date="1573394740432" expanded="false" signature="6:26" ph="..." />
-            <marker date="1573394740432" expanded="true" signature="63:182" ph="{...}" />
-            <marker date="1573394740432" expanded="true" signature="92:180" ph="{...}" />
-            <marker date="1573394740432" expanded="true" signature="141:174" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -1511,9 +1518,52 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/MWork.Extensions.DI.Tests.App/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="371">
+          <caret line="29" column="34" lean-forward="true" selection-start-line="29" selection-start-column="34" selection-end-line="29" selection-end-column="34" />
+          <folding>
+            <marker date="1573902855300" expanded="true" signature="6:99" ph="..." />
+            <marker date="1573902855300" expanded="true" signature="140:1146" ph="{...}" />
+            <marker date="1573902855300" expanded="true" signature="160:1144" ph="{...}" />
+            <marker date="1573902855300" expanded="true" signature="206:1138" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MWork.Extensions.DI.Tests.WebApi/Startup.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="34" column="36" selection-start-line="34" selection-start-column="36" selection-end-line="34" selection-end-column="36" />
+          <folding>
+            <marker date="1574109195121" expanded="true" signature="6:489" ph="..." />
+            <marker date="1574109195121" expanded="true" signature="533:2088" ph="{...}" />
+            <marker date="1574109195121" expanded="true" signature="560:2086" ph="{...}" />
+            <marker date="1574109195121" expanded="true" signature="619:682" ph="{...}" />
+            <marker date="1574109195121" expanded="true" signature="905:1472" ph="{...}" />
+            <marker date="1574109195121" expanded="true" signature="1660:2080" ph="{...}" />
+            <marker date="1574109195121" expanded="true" signature="1707:1784" ph="{...}" />
+            <marker date="1574109195121" expanded="true" signature="1801:2004" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MWork.Extensions.DI.Tests/UnitTest1.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+          <folding>
+            <marker date="1573394740432" expanded="false" signature="6:26" ph="..." />
+            <marker date="1573394740432" expanded="true" signature="63:182" ph="{...}" />
+            <marker date="1573394740432" expanded="true" signature="92:180" ph="{...}" />
+            <marker date="1573394740432" expanded="true" signature="141:174" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/MWork.Extensions.DI/NamedInstanceResolver.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
+        <state relative-caret-position="428">
           <caret line="53" column="93" selection-start-line="53" selection-start-column="93" selection-end-line="53" selection-end-column="93" />
           <folding>
             <marker date="1574106404193" expanded="true" signature="6:191" ph="..." />
@@ -1532,19 +1582,66 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MWork.Extensions.DI.Tests.WebApi/Startup.cs">
+    <entry file="file://$PROJECT_DIR$/MWork.Extensions.DI/Extensions/ServiceProviderExtensions.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="34" column="133" selection-start-line="34" selection-start-column="133" selection-end-line="34" selection-end-column="133" />
+        <state relative-caret-position="416">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
           <folding>
-            <marker date="1574106865878" expanded="true" signature="6:489" ph="..." />
-            <marker date="1574106865878" expanded="true" signature="533:2009" ph="{...}" />
-            <marker date="1574106865878" expanded="true" signature="560:2007" ph="{...}" />
-            <marker date="1574106865878" expanded="true" signature="619:682" ph="{...}" />
-            <marker date="1574106865878" expanded="true" signature="905:1393" ph="{...}" />
-            <marker date="1574106865878" expanded="true" signature="1581:2001" ph="{...}" />
-            <marker date="1574106865878" expanded="true" signature="1628:1705" ph="{...}" />
-            <marker date="1574106865878" expanded="true" signature="1722:1925" ph="{...}" />
+            <marker date="1573902618570" expanded="false" signature="6:119" ph="..." />
+            <marker date="1573902618570" expanded="true" signature="161:1046" ph="{...}" />
+            <marker date="1573902618570" expanded="true" signature="213:1044" ph="{...}" />
+            <marker date="1573902618570" expanded="true" signature="328:617" ph="{...}" />
+            <marker date="1573902618570" expanded="true" signature="454:578" ph="{...}" />
+            <marker date="1573902618570" expanded="true" signature="743:1038" ph="{...}" />
+            <marker date="1573902618570" expanded="true" signature="869:999" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9DE46E3C-963E-4872-8A29-95FD027553CC/6c/16f4ec57/ExceptionDispatchInfo.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="91" column="6" selection-start-line="91" selection-start-column="6" selection-end-line="91" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MWork.Extensions.DI.Tests.WebApi/Controllers/ValuesController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+          <folding>
+            <marker date="1574109128087" expanded="false" signature="6:302" ph="..." />
+            <marker date="1574109128087" expanded="true" signature="358:2589" ph="{...}" />
+            <marker date="1574109128087" expanded="true" signature="463:2587" ph="{...}" />
+            <marker date="1574109128087" expanded="true" signature="608:1883" ph="{...}" />
+            <marker date="1574109128087" expanded="true" signature="1991:2065" ph="{...}" />
+            <marker date="1574109128087" expanded="true" signature="2168:2216" ph="{...}" />
+            <marker date="1574109128087" expanded="true" signature="2313:2333" ph="{...}" />
+            <marker date="1574109128087" expanded="true" signature="2445:2465" ph="{...}" />
+            <marker date="1574109128087" expanded="true" signature="2561:2581" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MWork.Extensions.DI/Extensions/ServiceCollectionExtensions.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1072">
+          <caret line="71" column="9" selection-start-line="71" selection-start-column="9" selection-end-line="71" selection-end-column="9" />
+          <folding>
+            <marker date="1574108422538" expanded="false" signature="6:172" ph="..." />
+            <marker date="1574108422538" expanded="true" signature="214:3751" ph="{...}" />
+            <marker date="1574108422538" expanded="true" signature="268:3749" ph="{...}" />
+            <marker date="1574108422538" expanded="true" signature="494:612" ph="{...}" />
+            <marker date="1574108422538" expanded="true" signature="838:953" ph="{...}" />
+            <marker date="1574108422538" expanded="true" signature="1182:1300" ph="{...}" />
+            <marker date="1574108422538" expanded="true" signature="1450:1566" ph="{...}" />
+            <marker date="1574108422538" expanded="true" signature="1713:1826" ph="{...}" />
+            <marker date="1574108422538" expanded="true" signature="1976:2092" ph="{...}" />
+            <marker date="1574108422538" expanded="true" signature="2330:2447" ph="{...}" />
+            <marker date="1574108422538" expanded="true" signature="2614:2877" ph="{...}" />
+            <marker date="1574108422538" expanded="true" signature="2983:3159" ph="{...}" />
+            <marker date="1574108422538" expanded="true" signature="3285:3743" ph="{...}" />
+            <marker date="1574108422538" expanded="true" signature="3388:3508" ph="{...}" />
           </folding>
         </state>
       </provider>

@@ -25,6 +25,14 @@ namespace MWork.Extensions.DI.Tests.WebApi.Controllers
             var b = serviceProvider.GetNamedService<ITest>("Class B");
             var c = serviceProvider.GetNamedService<ITest>("Class C");
             var d = serviceProvider.GetNamedService<ITest>("Invalid");
+            
+            var e = serviceProvider.GetNamedService<ITest>("InitC1");
+            var f = serviceProvider.GetNamedService<ITest>("InitC2");
+            
+            var x = serviceProvider.GetNamedService<ITest>("Class X");
+
+            var res = serviceProvider.GetService<INamedInstanceResolver>();
+            var all = serviceProvider.GetServices<ITest>();
 
             Console.WriteLine("Class A");
             a?.PrintName();
@@ -34,6 +42,12 @@ namespace MWork.Extensions.DI.Tests.WebApi.Controllers
             c?.PrintName();
             Console.WriteLine("Invalid");
             d?.PrintName();
+            Console.WriteLine("InitC1");
+            e?.PrintName();
+            Console.WriteLine("InitC2");
+            f?.PrintName();
+            Console.WriteLine("Class X");
+            x?.PrintName();
         }
         
         // GET api/values

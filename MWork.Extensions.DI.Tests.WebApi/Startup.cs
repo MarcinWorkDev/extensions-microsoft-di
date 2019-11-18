@@ -28,11 +28,11 @@ namespace MWork.Extensions.DI.Tests.WebApi
         public void ConfigureServices(IServiceCollection services)
         {
             services
-                .AddNamedSingleton<ITest, TestA>("Class A")
-                .AddNamedSingleton<ITest, TestA>("Class A")
+                .AddSingleton<ITest, TestA>().WithName("Class A")
+                .AddSingleton<ITest, TestA>().WithName("Class X")
                 .AddSingleton<ITest, TestB>()
                 .AddNamedScoped<ITest, TestC>("Class C")
-                .AddNamedScoped<>(); // name albo key dowolnego typu nie musi to być string, i może zamiast AddNamed lepiej .WithName
+                .AddSingleton<ITest>(new TestC(){Text = "Init"}).WithName("InitC1").WithName("InitC2"); // name albo key dowolnego typu nie musi to być string, i może zamiast AddNamed lepiej .WithName
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
         }
