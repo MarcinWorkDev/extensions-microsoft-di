@@ -10,6 +10,7 @@
       <e p="MWork.Extensions.DI" t="IncludeRecursive">
         <e p="Abstraction" t="Include">
           <e p="INamedInstanceResolver.cs" t="Include" />
+          <e p="IWithName.cs" t="Include" />
         </e>
         <e p="bin" t="ExcludeRecursive" />
         <e p="Extensions" t="Include">
@@ -83,6 +84,7 @@
           <e p="TestA.cs" t="Include" />
           <e p="TestB.cs" t="Include" />
           <e p="TestC.cs" t="Include" />
+          <e p="TestD.cs" t="Include" />
         </e>
         <e p="Startup.cs" t="Include" />
       </e>

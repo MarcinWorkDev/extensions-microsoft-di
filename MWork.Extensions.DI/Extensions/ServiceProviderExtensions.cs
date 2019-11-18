@@ -9,23 +9,42 @@ namespace MWork.Extensions.DI.Extensions
     {
         public static TService GetNamedService<TService>(this IServiceProvider serviceProvider, string name)
         {
-            var resolver = serviceProvider.GetService<INamedInstanceResolver>();
-
-            if (resolver != null)
-            {
-                return resolver.ResolveInstance(serviceProvider.GetServices<TService>(), name);
-            }
-
-            return default;
+            return serviceProvider.GetService<TService>(name, false);
         }
         
         public static TService GetRequiredNamedService<TService>(this IServiceProvider serviceProvider, string name)
         {
-            var resolver = serviceProvider.GetService<INamedInstanceResolver>();
+            return serviceProvider.GetService<TService>(name, true);
+        }
 
-            if (resolver != null)
+        private static TService GetService<TService>(this IServiceProvider serviceProvider, string name,
+            bool throwNotExits)
+        {
+            var services = serviceProvider
+                .GetServices<TService>()
+                .ToList();
+
+            if (services.Any())
             {
-                return resolver.ResolveInstance(serviceProvider.GetServices<TService>(), name, true);
+                // Try using IWithName interface
+                var withName = services
+                    .Select(x => new
+                    {
+                        Service = x,
+                        WithName = x.GetType()
+                            .GetInterfaces()
+                            .Any(i => i == typeof(IWithName))
+                    })
+                    .LastOrDefault(x => x.WithName && (x.Service as IWithName)?.__InstanceName == name);
+                
+                if (withName != default)
+                {
+                    return withName.Service;
+                }
+            
+                // Try using resolver
+                var resolver = serviceProvider.GetRequiredService<INamedInstanceResolver>();
+                return resolver.ResolveInstance(serviceProvider.GetServices<TService>(), name, throwNotExits);
             }
 
             return default;

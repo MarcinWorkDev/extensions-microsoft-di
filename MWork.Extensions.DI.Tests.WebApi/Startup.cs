@@ -32,7 +32,8 @@ namespace MWork.Extensions.DI.Tests.WebApi
                 .AddSingleton<ITest, TestA>().WithName("Class X")
                 .AddSingleton<ITest, TestB>()
                 .AddNamedScoped<ITest, TestC>("Class C")
-                .AddSingleton<ITest>(new TestC(){Text = "Init"}).WithName("InitC1").WithName("InitC2"); // name albo key dowolnego typu nie musi to być string, i może zamiast AddNamed lepiej .WithName
+                .AddSingleton<ITest>(new TestC(){Text = "Init"}).WithName("InitC1").WithName("InitC2")
+                .AddScoped<ITest, TestD>(); // name albo key dowolnego typu nie musi to być string, i może zamiast AddNamed lepiej .WithName
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
         }

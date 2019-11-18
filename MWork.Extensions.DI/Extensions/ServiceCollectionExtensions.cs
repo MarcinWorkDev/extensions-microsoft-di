@@ -67,7 +67,7 @@ namespace MWork.Extensions.DI.Extensions
             var serviceDescriptor = services.Last();
             
             services.RegisterName(serviceDescriptor, name);
-
+            
             return services;
         }
 

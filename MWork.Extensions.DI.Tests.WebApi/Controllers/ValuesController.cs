@@ -29,25 +29,30 @@ namespace MWork.Extensions.DI.Tests.WebApi.Controllers
             var e = serviceProvider.GetNamedService<ITest>("InitC1");
             var f = serviceProvider.GetNamedService<ITest>("InitC2");
             
+            var m = serviceProvider.GetNamedService<ITest>("BlaBla");
+            var n = serviceProvider.GetNamedService<ITest>("KwaKwa");
+            
             var x = serviceProvider.GetNamedService<ITest>("Class X");
 
             var res = serviceProvider.GetService<INamedInstanceResolver>();
             var all = serviceProvider.GetServices<ITest>();
 
-            Console.WriteLine("Class A");
-            a?.PrintName();
-            Console.WriteLine("Class B");
-            b?.PrintName();
-            Console.WriteLine("Class C");
-            c?.PrintName();
-            Console.WriteLine("Invalid");
-            d?.PrintName();
-            Console.WriteLine("InitC1");
-            e?.PrintName();
-            Console.WriteLine("InitC2");
-            f?.PrintName();
-            Console.WriteLine("Class X");
-            x?.PrintName();
+            Console.WriteLine("Class A " + a?.Text);
+            Console.WriteLine("Class B " + b?.Text);
+            Console.WriteLine("Class C " + c?.Text);
+            Console.WriteLine("Invalid " + d?.Text);
+            Console.WriteLine("InitC1 " + e?.Text);
+            Console.WriteLine("InitC2 " + f?.Text);
+            
+            Console.WriteLine("BlaBla " + m?.Text);
+            Console.WriteLine("KwaKwa " + n?.Text);
+            
+            Console.WriteLine("Class X " + x?.Text);
+
+            if (f != null) f.Text = "AAAAAAA!!!!";
+            var f2 = serviceProvider.GetNamedService<ITest>("InitC2");
+            
+            Console.WriteLine("InitC2 " + f2?.Text);
         }
         
         // GET api/values

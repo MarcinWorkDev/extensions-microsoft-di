@@ -9,11 +9,11 @@ namespace MWork.Extensions.DI
 {
     public class NamedInstanceResolver : INamedInstanceResolver
     {
-        private readonly Dictionary<Type, Dictionary<string, Type>> _registrations;
+        private readonly Dictionary<Type, Dictionary<string, ServiceDescriptor>> _registrations;
 
         public NamedInstanceResolver()
         {
-            _registrations = new Dictionary<Type, Dictionary<string, Type>>();
+            _registrations = new Dictionary<Type, Dictionary<string, ServiceDescriptor>>();
         }
 
         public void RegisterInstance(ServiceDescriptor serviceDescriptor, string name)
@@ -21,13 +21,12 @@ namespace MWork.Extensions.DI
             var name2 = name.NameNormalize();
             
             var serviceType = serviceDescriptor.ServiceType;
-            var implementationType = serviceDescriptor.ImplementationType;
 
             var existsType = _registrations.ContainsKey(serviceType);
 
             if (existsType == false)
             {
-                _registrations.Add(serviceType, new Dictionary<string, Type>());
+                _registrations.Add(serviceType, new Dictionary<string, ServiceDescriptor>());
             }
 
             var exists = _registrations[serviceDescriptor.ServiceType].ContainsKey(name2);
@@ -37,7 +36,7 @@ namespace MWork.Extensions.DI
                 throw new Exception($"Instance of type '{serviceDescriptor.ServiceType.FullName}' with name '{name}' already exists.");
             }
 
-            _registrations[serviceDescriptor.ServiceType].Add(name2, implementationType);
+            _registrations[serviceDescriptor.ServiceType].Add(name2, serviceDescriptor);
         }
 
         public T ResolveInstance<T>(IEnumerable<T> services, string name, bool throwNotExists = false)
@@ -51,7 +50,9 @@ namespace MWork.Extensions.DI
 
                 if (typeRegistered != default)
                 {
-                    var service = services.FirstOrDefault(x => x.GetType() == typeRegistered);
+                    var service = services
+                        .FirstOrDefault(x => x.Equals(typeRegistered.ImplementationInstance)
+                                             || x.GetType() == typeRegistered.ImplementationType);
 
                     if (service != null)
                     {
