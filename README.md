@@ -1,8 +1,10 @@
 # MARCIN.WORK 
 ### .NET Core Dependency Injection - named instances functionality
 
-![](https://github.com/MarcinWorkDev/extensions-microsoft-di/workflows/BuildMe-MASTER/badge.svg)
-![](https://github.com/MarcinWorkDev/extensions-microsoft-di/workflows/BuildMe-DEVELOP/badge.svg)
+Master:  
+![](https://github.com/MarcinWorkDev/extensions-microsoft-di/workflows/BuildMe/badge.svg?branch=master)  
+Develop:  
+![](https://github.com/MarcinWorkDev/extensions-microsoft-di/workflows/BuildMe/badge.svg?branch=develop)
 
 ### Requires:
 * `Microsoft.Extensions.DependencyInjection`
