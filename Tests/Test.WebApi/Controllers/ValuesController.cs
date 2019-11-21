@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.DependencyInjection;
-using MWork.Extensions.Microsoft.DependencyInjection.Abstraction;
+using MWork.Extensions.Microsoft.DependencyInjection.Abstractions;
 using MWork.Extensions.Microsoft.DependencyInjection.Extensions;
 using MWork.Extensions.Microsoft.DependencyInjection.Tests.WebApi.Services;
 

@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace MWork.Extensions.Microsoft.DependencyInjection.Abstraction
+namespace MWork.Extensions.Microsoft.DependencyInjection.Abstractions
 {
     public interface INamedInstanceResolver
     {

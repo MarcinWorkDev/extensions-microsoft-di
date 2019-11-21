@@ -1,5 +1,5 @@
 using System;
-using MWork.Extensions.Microsoft.DependencyInjection.Abstraction;
+using MWork.Extensions.Microsoft.DependencyInjection.Abstractions;
 
 namespace MWork.Extensions.Microsoft.DependencyInjection.Tests.WebApi.Services
 {

@@ -1,7 +1,7 @@
 using System;
 using System.Linq;
 using Microsoft.Extensions.DependencyInjection;
-using MWork.Extensions.Microsoft.DependencyInjection.Abstraction;
+using MWork.Extensions.Microsoft.DependencyInjection.Abstractions;
 
 namespace MWork.Extensions.Microsoft.DependencyInjection.Extensions
 {

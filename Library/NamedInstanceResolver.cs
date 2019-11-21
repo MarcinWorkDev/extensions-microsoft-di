@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using Microsoft.Extensions.DependencyInjection;
-using MWork.Extensions.Microsoft.DependencyInjection.Abstraction;
+using MWork.Extensions.Microsoft.DependencyInjection.Abstractions;
 using MWork.Extensions.Microsoft.DependencyInjection.Extensions;
 
 namespace MWork.Extensions.Microsoft.DependencyInjection

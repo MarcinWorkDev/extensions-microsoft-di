@@ -1,4 +1,4 @@
-namespace MWork.Extensions.Microsoft.DependencyInjection.Abstraction
+namespace MWork.Extensions.Microsoft.DependencyInjection.Abstractions
 {
     public interface IWithName
     {
