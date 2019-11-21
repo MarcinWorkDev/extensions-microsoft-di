@@ -12,6 +12,7 @@
         <AssemblyName>MWork.Extensions.Microsoft.DependencyInjection</AssemblyName>
         <RootNamespace>MWork.Extensions.Microsoft.DependencyInjection</RootNamespace>
         <TargetFrameworks>netstandard2.0;netcoreapp2.1;netcoreapp2.2</TargetFrameworks>
+        <PackageLicenseUrl>https://opensource.org/licenses/MIT</PackageLicenseUrl>
     </PropertyGroup>
 
     <ItemGroup>
