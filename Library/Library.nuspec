@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <id>MWork.Extensions.Microsoft.DependencyInjection</id>
+        <version>$version$</version>
+        <authors>MARCIN.WORK</authors>
+        <owners>MARCIN.WORK</owners>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <license type="expression">MIT</license>
+        <projectUrl>https://github.com/MarcinWorkDev/extensions-microsoft-di</projectUrl>
+        <description>Extension for Microsoft Dependency Injection (.net core) - added named instances functionality</description>
+        <repository type="Git" url="https://github.com/MarcinWorkDev/extensions-microsoft-di" />
+        <dependencies>
+            <group targetFramework=".NETCoreApp2.1">
+                <dependency id="Microsoft.Extensions.DependencyInjection" version="2.2.0" exclude="Build,Analyzers" />
+            </group>
+            <group targetFramework=".NETCoreApp2.2">
+                <dependency id="Microsoft.Extensions.DependencyInjection" version="2.2.0" exclude="Build,Analyzers" />
+            </group>
+            <group targetFramework=".NETStandard2.0">
+                <dependency id="Microsoft.Extensions.DependencyInjection" version="2.2.0" exclude="Build,Analyzers" />
+            </group>
+        </dependencies>
+    </metadata>
+    <files>
+        <file src="bin\$configuration$\**" target="lib" />
+    </files>
+</package>
