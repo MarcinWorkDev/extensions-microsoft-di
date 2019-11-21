@@ -3,8 +3,10 @@
 
 Master:  
 ![](https://github.com/MarcinWorkDev/extensions-microsoft-di/workflows/BuildMe/badge.svg?branch=master)  
+[![NuGet Badge](https://buildstats.info/nuget/MWork.Extensions.Microsoft.DependencyInjectio)](https://www.nuget.org/packages/s/MWork.Extensions.Microsoft.DependencyInjection/)
 Develop:  
 ![](https://github.com/MarcinWorkDev/extensions-microsoft-di/workflows/BuildMe/badge.svg?branch=develop)
+[![NuGet Badge](https://buildstats.info/nuget/MWork.Extensions.Microsoft.DependencyInjectio?includePreReleases=true)](https://www.nuget.org/packages/s/MWork.Extensions.Microsoft.DependencyInjection/)
 
 ### Requires:
 * `Microsoft.Extensions.DependencyInjection`
