@@ -2,7 +2,7 @@
 ### .NET Core Dependency Injection - named instances functionality
 
 Master:  
-![](https://github.com/MarcinWorkDev/extensions-microsoft-di/workflows/BuildMe/badge.svg?branch=master)  
+![](https://github.com/MarcinWorkDev/extensions-microsoft-di/workflows/BuildMe/badge.svg?branch=master)
 ![](https://img.shields.io/nuget/vpre/MWork.Extensions.Microsoft.DependencyInjection)  
 
 Develop:  
